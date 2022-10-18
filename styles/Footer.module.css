@@ -1,0 +1,21 @@
+
+.container {
+    border-top: solid 1px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    background-color: #F5C6C4;
+}
+
+.container ul {
+    list-style: none;
+}
+.container ul:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.listContainer {
+    display: flex;
+}

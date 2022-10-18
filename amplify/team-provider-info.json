@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bakingsocial-dev-73740-authRole",
+      "UnauthRoleArn": "arn:aws:iam::544504287652:role/amplify-bakingsocial-dev-73740-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::544504287652:role/amplify-bakingsocial-dev-73740-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bakingsocial-dev-73740-deployment",
+      "UnauthRoleName": "amplify-bakingsocial-dev-73740-unauthRole",
+      "StackName": "amplify-bakingsocial-dev-73740",
+      "StackId": "arn:aws:cloudformation:us-east-1:544504287652:stack/amplify-bakingsocial-dev-73740/02c26110-3d98-11ed-b843-1226ba888c4b",
+      "AmplifyAppId": "dsg9stjoh4t16"
+    },
+    "categories": {
+      "auth": {
+        "bakingsocial47867731": {},
+        "true": {}
+      }
+    }
+  }
+}
