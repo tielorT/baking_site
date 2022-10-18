@@ -31,8 +31,8 @@ export default function Home({ data }) {
         <div className={styles.popularRecipeCards}>
           {data.map(recipe => {
             if(recipe.popular){
-              return <Card style={{ width: '18rem' }} className={styles.card}>
-                      <Image layout='responsive' width={200} height={200} src={recipe.img} />
+              return <Card style={{ width: '18rem' }} className={styles.card} key={recipe.title}>
+                      <Image layout='responsive' width={200} height={200} src={recipe.img} alt='img'/>
                       <Card.Body>
                       <Card.Title>{recipe.title}</Card.Title>
                       <Card.Text>

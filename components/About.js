@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                     <div style={{ width: '50%', display: 'flex', alignItems: 'center',justifyContent: 'center'}}>
                         <div>
-                           <Image src={img2} height={300} width={300} />
+                           <Image src={img2} height={300} width={300} alt='img'/>
                         </div>
                     </div>
                 </div>
