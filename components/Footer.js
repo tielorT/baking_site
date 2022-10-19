@@ -9,7 +9,8 @@ const Footer = () => {
                     <li><a href='mailto: tielorboon@gmail.com'>Email</a></li>
                 </ul>
                 <ul>
-                    <li><a href='https://www.linkedin.com/in/tielor-tomlinson-29742624b/' target='_blank'>Linkedin</a></li>
+                    <li><a href='https://www.linkedin.com/in/tielor-tomlinson-29742624b/' 
+                           target='_blank' rel='noreferrer'>Linkedin</a></li>
                 </ul>
                 <ul>
                     <li>Github</li>

@@ -16,7 +16,7 @@ const About = () => {
                             <p>A Front-end developer with a sweet tooth and a purpose</p>
                         </div>
                         <div className={styles.imgDiv}>
-                        <Image layout='fill' src={img1}/>
+                        <Image layout='fill' src={img1} alt='img'/>
                         </div>
                     </div> 
                     <div className={styles.sectionBlock}>
