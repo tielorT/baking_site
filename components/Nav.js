@@ -7,10 +7,10 @@ const Nav = () => {
                 <li>Home</li>
             </ul>
             <ul>
-                <li>Account</li>
+                <li><a href='#about'>About</a></li>
             </ul>
             <ul>
-                <li>About</li>
+                <li><a href='#contact'>Contact</a></li>
             </ul>
         </nav>
     )

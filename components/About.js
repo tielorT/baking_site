@@ -10,6 +10,7 @@ const About = () => {
             <div style={{ display: 'flex', justifyContent: 'center'}}>
                 <div className={styles.container}>
                 <div className={styles.section1}>
+                        <a id='about'></a>
                         <div className={styles.sectionAbout}>
                             <h4>The Mission</h4>
                             <h2>About Me</h2>

@@ -3,6 +3,7 @@ import styles from '../styles/Footer.module.css'
 const Footer = () => {
     return (
         <div className={styles.container}>
+            <a id='contact'></a>
             <p style={{ paddingLeft: '32px', fontSize: '20px'}}>Contact Me</p>
             <div className={styles.listContainer}>
                 <ul>
@@ -13,7 +14,8 @@ const Footer = () => {
                            target='_blank' rel='noreferrer'>Linkedin</a></li>
                 </ul>
                 <ul>
-                    <li>Github</li>
+                    <li><a href='https://github.com/tielorT?tab=repositories'
+                           target='_blank' rel='noreferrer'>Github</a></li>
                 </ul>
             </div>
             <div style={{ alignSelf: 'flex-end'}}>
