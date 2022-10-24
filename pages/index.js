@@ -52,7 +52,7 @@ export default function Home({ data }) {
 
 export async function getServerSideProps() {
    
-  const res = await fetch('http://localhost:3000/api/recipes');
+  const res = await fetch('/api/recipes');
   const data = await res.json();
 
   return { props: { data }}
