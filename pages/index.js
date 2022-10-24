@@ -51,9 +51,10 @@ export default function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-   
+   if(global.window){
   const res = await fetch('/api/recipes');
   const data = await res.json();
 
   return { props: { data }}
+   }
 }
